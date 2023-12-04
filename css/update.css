@@ -175,3 +175,8 @@ h11 {
     padding-top:10px;
     transform: translate(-30em, 1em);
     }
+
+body {
+  background: url(../image/3.jpg);
+  background-repeat: repeat;
+}
