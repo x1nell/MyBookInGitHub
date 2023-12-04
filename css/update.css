@@ -1,150 +1,141 @@
 #navbar ul{
-    display: none;
-    background-color: rgb(21, 114, 35);
-    position: absolute;
-    top: 100%;
-    opacity: 0.5;
-  }
+  display: none;
+  background-color: rgb(21, 114, 35);
+  position: absolute;
+  top: 100%;
+  opacity: 0.5;
+}
 
-  #navbar li:hover ul { display: block; }
+#navbar li:hover ul { display: block; }
 
-  #navbar, #navbar ul{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    font-weight: bold;
-  }
+#navbar, #navbar ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-weight: bold;
+}
 
-  #navbar {
-    height: 60px;
-    background-color: #3b3838;
-    padding-left: 200px;
-    min-width: 400px;
-  }
+#navbar {
+  height: 60px;
+  background-color: #3b3838;
+  padding-left: 200px;
+  min-width: 400px;
+}
 
-  #navbar li {
-    float: left;
-    position: relative;
-    height: 100%;
-    padding: 1px;
-    width: 200px;
-    border-radius: 20px;
-    z-index: 1;
-  }
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+  padding: 1px;
+  width: 200px;
+  border-radius: 20px;
+  z-index: 1;
+}
 
-  #navbar li a {
-    display: block;
-    padding: 20px;
-    width: 120px;
-    color: #ffffff;
-    text-decoration: none;
-    z-index: 1;
-  }
+#navbar li a {
+  display: block;
+  padding: 20px;
+  width: 120px;
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 1;
+}
 
-  #navbar ul li { float: none; }
+#navbar ul li { float: none; }
 
-  #navbar li:hover { background-color: rgb(22, 161, 62); }
+#navbar li:hover { background-color: rgb(22, 161, 62); }
   
-  #navbar ul li:hover { background-color: rgb(22, 63, 10); }
+#navbar ul li:hover { background-color: rgb(22, 63, 10); }
 
-  #navbar {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    border: 2px solid rgb(30, 185, 50);
-    border-radius: 20px;
-    width: 1875px;
-    text-align: center;
-    background-color: #3b3b3b;
-    font-family: 'Arial', 'Verdana', sans-serif;
-    z-index: 1;
-    }
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 2px solid rgb(30, 185, 50);
+  border-radius: 20px;
+  width: 1875px;
+  text-align: center;
+  background-color: #3b3b3b;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  z-index: 1;
+}
 
-      body {
-        background: linear-gradient(to bottom, black, gray);
-        background-size: cover;
-      }
+body {
+  background: linear-gradient(to bottom, black, gray);
+  background-size: cover;
+}
       
-      h1 {
-        font-family: 'Arial', 'Verdana', sans-serif;
-      }
+h1 {
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
 
-      .square-block {
-        width:200px; /*ширина */
-        height:900px; /*высота */
-        background:#3b3d3f; /*фоновый цвет*/
-        color:#fff; /*цвет шрифта*/
-        text-align:center; /*выравнивание текста по центру*/
-        text-transform:uppercase; /*написание текста заглавными буквами*/
-        line-height:70px; /*высота строки текста*/
-        float:center;/*обтекане блока по левому краю (при необходимости)*/
-        margin: 400px auto;
-        padding:45px 600px;
-        font-family: 'Arial', 'Verdana', sans-serif;
-        position: center;
-        border: 5px solid rgb(13, 94, 13);
-        }
+.square-block {
+  width:1200px; /*ширина */
+  height:900px; /*высота */
+  background:#3b3d3f; /*фоновый цвет*/
+  color:#fff; /*цвет шрифта*/
+  line-height:29px; /*высота строки текста*/
+  margin: 300px auto;
+  padding:20px 70px;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  border: 5px solid rgb(13, 94, 13);
+  font-size: 1.2em;
+  text-shadow: 0.1em 0 #212121
+}
 
-        .scroll-button2 {
-          color: rgb(250, 250, 250);
-          padding: 10px 20px;
-          border: none;
-          cursor: pointer;
-          border: 5px solid rgb(13, 94, 13);
-          border-radius: 20px;
-          background-color: #053a12;
-          font-weight: bold;
-          font-family: 'Arial', 'Verdana', sans-serif;
-          text-decoration: none;
-        }
+.scroll-button2 {
+  color: rgb(250, 250, 250);
+  padding: 10px 20px;
+  border: 3px solid rgb(13, 94, 13);
+  border-radius: 20px;
+  background-color: #053a12;
+  font-weight: bold;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  text-decoration: none;
+}
 
-        .square-block2 {
-          width:200px; /*ширина */
-          height:900px; /*высота */
-          background:#3b3d3f; /*фоновый цвет*/
-          color:#fff; /*цвет шрифта*/
-          text-align:center; /*выравнивание текста по центру*/
-          text-transform:uppercase; /*написание текста заглавными буквами*/
-          line-height:70px; /*высота строки текста*/
-          float:center;/*обтекане блока по левому краю (при необходимости)*/
-          margin: 400px auto;
-          padding:45px 600px;
-          font-family: 'Arial', 'Verdana', sans-serif;
-          position: center;
-          border: 5px solid rgb(13, 94, 13);
-          }
+.square-block2 {
+  width:1200px; /*ширина */
+  height:900px; /*высота */
+  background:#3b3d3f; /*фоновый цвет*/
+  color:#fff; /*цвет шрифта*/
+  line-height:29px; /*высота строки текста*/
+  margin: 300px auto;
+  padding:20px 70px;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  border: 5px solid rgb(13, 94, 13);
+  font-size: 1.2em;
+  text-shadow: 0.1em 0 #212121
+}
 
-          .square-block3 {
-            width:200px; /*ширина */
-            height:900px; /*высота */
-            background:#3b3d3f; /*фоновый цвет*/
-            color:#fff; /*цвет шрифта*/
-            text-align:center; /*выравнивание текста по центру*/
-            text-transform:uppercase; /*написание текста заглавными буквами*/
-            line-height:70px; /*высота строки текста*/
-            float:center;/*обтекане блока по левому краю (при необходимости)*/
-            margin: 400px auto;
-            padding:45px 600px;
-            font-family: 'Arial', 'Verdana', sans-serif;
-            position: center;
-            border: 5px solid rgb(13, 94, 13);
-            }
+.square-block3 {
+  width:1200px; /*ширина */
+  height:900px; /*высота */
+  background:#3b3d3f; /*фоновый цвет*/
+  color:#fff; /*цвет шрифта*/
+  line-height:29px; /*высота строки текста*/
+  margin: 300px auto;
+  padding:20px 70px;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  border: 5px solid rgb(13, 94, 13);
+  font-size: 1.2em;
+  text-shadow: 0.1em 0 #212121
+}
 
-            .square-block4 {
-              width:200px; /*ширина */
-              height:900px; /*высота */
-              background:#3b3d3f; /*фоновый цвет*/
-              color:#fff; /*цвет шрифта*/
-              text-align:center; /*выравнивание текста по центру*/
-              text-transform:uppercase; /*написание текста заглавными буквами*/
-              line-height:70px; /*высота строки текста*/
-              float:center;/*обтекане блока по левому краю (при необходимости)*/
-              margin: 400px auto;
-              padding:45px 600px;
-              font-family: 'Arial', 'Verdana', sans-serif;
-              position: center;
-              border: 5px solid rgb(13, 94, 13);
-              }
+.square-block4 {
+  width:1200px; /*ширина */
+  height:900px; /*высота */
+  background:#3b3d3f; /*фоновый цвет*/
+  color:#fff; /*цвет шрифта*/
+  line-height:29px; /*высота строки текста*/
+  margin: 300px auto;
+  padding:20px 70px;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  border: 5px solid rgb(13, 94, 13);
+  font-size: 1.2em;
+  text-shadow: 0.1em 0 #212121
+}
+              
 h11 {
   font-family: 'Arial', 'Verdana', sans-serif;
   color: #fff;
@@ -158,22 +149,23 @@ h11 {
   font-weight: bold;
   z-index: 2;
 }
-  .blockOpis {
-    width:590px; /*ширина */
-    height:120px; /*высота */
-    background:#3b3d3f; /*фоновый цвет*/
-    color:#fff; /*цвет шрифта*/
-    float:right;
-    margin: 100px;
-    font-family: 'Arial', 'Verdana', sans-serif;
-    position: center;
-    border: 2px solid rgb(250, 250, 250);
-    padding-bottom:88px;
-    padding-left:10px;
-    padding-right:37px;
-    padding-top:10px;
-    transform: translate(-30em, 1em);
-    }
+
+.blockOpis {
+  width:590px; /*ширина */
+  height:120px; /*высота */
+  background:#3b3d3f; /*фоновый цвет*/
+  color:#fff; /*цвет шрифта*/
+  float:right;
+  margin: 100px;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  position: center;
+  border: 2px solid rgb(250, 250, 250);
+  padding-bottom:88px;
+  padding-left:10px;
+  padding-right:37px;
+  padding-top:10px;
+  transform: translate(-30em, 1em);
+}
 
 body {
   background: url(../image/3.jpg);
@@ -195,4 +187,11 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
+}
+
+.leftfoto{
+  width: 400px;
+  border: 2px solid rgb(255, 255, 255);
+  float:right;
+  margin: 0px 10px 0px 0px;
 }
